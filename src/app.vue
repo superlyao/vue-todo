@@ -1,17 +1,21 @@
 <template>
-  <span>{{text}}</span>
+  <div id="app" >{{textliao}}</div>
 </template>
 <script>
 export default {
   data() {
     return {
-      text: 'text'
+      textliao: 'asdasd'
     }
   }
 }
 </script>
 <style>
-
+  div{
+    color: blue;
+    height: 100px;
+    width: 100px;
+  }
 </style>
 
 
